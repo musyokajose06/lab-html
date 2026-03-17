@@ -1,0 +1,57 @@
+* {
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500px;
+    font-style: normal;
+    font-size: 80px;
+    margin: 0%;
+}
+
+
+
+.hero {
+    display: flex;
+    gap: 30px;
+}
+.img-1{
+    margin: 0%;
+    border: 2px solid rgb(14, 0, 0);
+    width: 580px; 
+    height: 550px; 
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.hero .right-side {
+    font-size: 24px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 7px;
+    height: 540px;
+    margin-top: 5px;
+}
+
+.pics{
+    display: flex;
+    gap: 8px;
+    margin-left: 5px;
+}
+
+img{
+    height: 400px;
+    width: 240px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a{
+    font-size: 20px;
+    margin: 30px;
+}
