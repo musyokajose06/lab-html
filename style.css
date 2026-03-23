@@ -40,8 +40,15 @@ h1{
 
 .pics{
     display: flex;
+    flex-direction: row;
     gap: 8px;
     margin-left: 5px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
 }
 
 img{
